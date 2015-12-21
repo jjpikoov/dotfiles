@@ -1,0 +1,19 @@
+[user]
+	name = Pawel Jankowski
+	email = jjpikoov@gmail.com
+[core]
+	editor = vim
+[alias]
+[push]
+	default = simple
+[alias]
+    l = log --all --pretty='format:%d %Cgreen%h%Creset %an - %s' --graph
+    s = status
+    ci = commit
+    co = checkout
+    a = !git add . && git status
+[color]
+    branch = true
+    ui = true
+    diff = true
+    status = true

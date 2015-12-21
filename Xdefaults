@@ -1,0 +1,16 @@
+URxvt*transparent:false
+URxvt*tintColor: DarkBlue
+URxvt*saveLines: 2000
+URxvt*foreground: #204A87
+URxvt*background: #D3D7CF
+
+Rxvt*font: xft:Inconsolata for Powerline:syle=Medium:pixelsize=11:antialias=true
+URxvt*boldFont: xft:Inconsolata for Powerline:syle=Bold:pixelsize=11:antialias=true
+
+#URxvt*font: xft:Monospace:style=Regular:pixelsize=11:antialias=false:hinting=false
+#URxvt*boldFont: xft:Monospace:style=Bold:pixelsize=11:antialias=false:hinting=false
+URxvt*color4: RoyalBlue
+URxvt*color12: RoyalBlue
+URxvt*scrollBar: true
+URxvt*scrollBar_right: false
+URxvt*termName: xterm-256color
