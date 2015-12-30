@@ -13,6 +13,11 @@
 		</item>
 	</menu>
 	<menu id="Programming" label="Programming">
+		<item label="Gummi">
+			<action name="Execute">
+				<execute>gummi</execute>
+			</action>
+		</item>
 		<item label="Glade">
 			<action name="Execute">
 				<execute>glade</execute>

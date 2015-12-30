@@ -17,3 +17,5 @@
     ui = true
     diff = true
     status = true
+[diff]
+    tool = vimdiff
