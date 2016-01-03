@@ -46,7 +46,7 @@ set_prompt () {
     if [[ $EUID == 0 ]]; then
         PS1+="$Red\\h "
     else
-        PS1+="$Black\\u@\\h "
+        PS1+="$Green\\u@\\h "
     fi
     # Print the working directory and prompt marker in blue, and reset
     # the text color to the default.
