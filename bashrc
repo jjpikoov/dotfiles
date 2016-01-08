@@ -52,6 +52,9 @@ set_prompt () {
     # the text color to the default.
     PS1+="$Blue\\w \\\$$Reset "
 }
+
+caaps
+
 PROMPT_COMMAND='set_prompt'
 echo ===================================
 cat $HOME/.TODOJJPIKOOV
