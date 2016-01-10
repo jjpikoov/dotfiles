@@ -53,6 +53,10 @@ set_prompt () {
     PS1+="$Blue\\w \\\$$Reset "
 }
 
+alias ls='ls --color'                                                       
+LS_COLORS=$LS_COLORS:'di=1;90:ln=0;31:ex=0;93'                              
+export LS_COLORS  
+
 caaps
 
 PROMPT_COMMAND='set_prompt'
