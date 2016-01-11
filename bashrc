@@ -14,6 +14,7 @@ alias caaps='setxkbmap -option ctrl:nocaps'
 alias tmux='tmux -2 -f ~/.tmux.conf'
 alias adb='~/.buildozer/android/platform/android-sdk-21/platform-tools/adb'
 alias sx='startx'
+alias vv='. venv/bin/activate'
 export TERM=screen-256color
 #return value visualisation
 set_prompt () {
